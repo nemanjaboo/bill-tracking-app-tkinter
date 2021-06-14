@@ -59,7 +59,7 @@ class StartScreen(Frame):
 
                 exceeding_budget = remaining_budget - desire
                 calc_msg_label.configure(
-                    text='Days left:{}\nExtra budget:{}RSD'.format(remaining_days, exceeding_budget),
+                    text='Days left:{}\nExtra budget: {}RSD'.format(remaining_days, exceeding_budget),
                     font='Whyte 18 bold')
             except:
                 messagebox.showerror(title='Error', message='Make sure to input numbers')

@@ -252,7 +252,7 @@ class StartScreen(Frame):
                 if all_bills[i][2] == 0:
                     all_bills[i][2] = 'Not Paid'
                 else:
-                    all_bills[i][2] = 'Paid'
+                    all_bills[i][2] = 'Paid '
 
 
             for i in range(len(all_bills)):

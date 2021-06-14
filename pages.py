@@ -261,7 +261,7 @@ class StartScreen(Frame):
 
             unpaid_bills = 0
             for bill in all_bills:
-                if bill[2] == 'Not Paid':
+                if bill[2] == 'Not Paid ':
                     unpaid_bills += 1
 
             total_cost = 0.0
